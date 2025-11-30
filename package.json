@@ -1,8 +1,8 @@
 {
-  "name": "aws-rust-rag-lambda",
+  "name": "aws-rust-agent-lambda",
   "version": "0.1.0",
   "bin": {
-    "aws-rust-rag-lambda": "bin/aws-rust-rag-lambda.js"
+    "aws-rust-rag-lambda": "bin/aws-rust-agent-lambda.js"
   },
   "type": "module",
   "scripts": {
