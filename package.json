@@ -29,7 +29,7 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-promise": "^7.2.1",
     "jiti": "^2.6.1",
-    "pnpm": "^10.26.2",
+    "pnpm": "^10.27.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.51.0",
@@ -42,5 +42,5 @@
     "cargo-lambda-cdk": "^0.0.36",
     "constructs": "^10.4.4"
   },
-  "packageManager": "pnpm@10.26.2"
+  "packageManager": "pnpm@10.27.0"
 }
