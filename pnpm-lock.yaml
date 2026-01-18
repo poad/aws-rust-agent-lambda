@@ -10,13 +10,13 @@ importers:
     dependencies:
       aws-cdk-lib:
         specifier: ^2.235.0
-        version: 2.235.0(constructs@10.4.4)
+        version: 2.235.0(constructs@10.4.5)
       cargo-lambda-cdk:
         specifier: ^0.0.36
-        version: 0.0.36(aws-cdk-lib@2.235.0(constructs@10.4.4))(constructs@10.4.4)
+        version: 0.0.36(aws-cdk-lib@2.235.0(constructs@10.4.5))(constructs@10.4.5)
       constructs:
-        specifier: ^10.4.4
-        version: 10.4.4
+        specifier: ^10.4.5
+        version: 10.4.5
     devDependencies:
       '@eslint/compat':
         specifier: ^2.0.1
@@ -816,8 +816,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  constructs@10.4.4:
-    resolution: {integrity: sha512-lP0qC1oViYf1cutHo9/KQ8QL637f/W29tDmv/6sy35F5zs+MD9f66nbAAIjicwc7fwyuF3rkg6PhZh4sfvWIpA==}
+  constructs@10.4.5:
+    resolution: {integrity: sha512-fOoP70YLevMZr5avJHx2DU3LNYmC6wM8OwdrNewMZou1kZnPGOeVzBrRjZNgFDHUlulYUjkpFRSpTE3D+n+ZSg==}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -2338,12 +2338,12 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  aws-cdk-lib@2.235.0(constructs@10.4.4):
+  aws-cdk-lib@2.235.0(constructs@10.4.5):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.261
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
       '@aws-cdk/cloud-assembly-schema': 48.20.0
-      constructs: 10.4.4
+      constructs: 10.4.5
 
   aws-cdk@2.1101.0:
     optionalDependencies:
@@ -2379,10 +2379,10 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  cargo-lambda-cdk@0.0.36(aws-cdk-lib@2.235.0(constructs@10.4.4))(constructs@10.4.4):
+  cargo-lambda-cdk@0.0.36(aws-cdk-lib@2.235.0(constructs@10.4.5))(constructs@10.4.5):
     dependencies:
-      aws-cdk-lib: 2.235.0(constructs@10.4.4)
-      constructs: 10.4.4
+      aws-cdk-lib: 2.235.0(constructs@10.4.5)
+      constructs: 10.4.5
 
   chai@6.2.2: {}
 
@@ -2399,7 +2399,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  constructs@10.4.4: {}
+  constructs@10.4.5: {}
 
   cross-spawn@7.0.6:
     dependencies:
