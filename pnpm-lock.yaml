@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.235.1
-        version: 2.235.1(constructs@10.4.5)
+        specifier: ^2.236.0
+        version: 2.236.0(constructs@10.4.5)
       cargo-lambda-cdk:
         specifier: ^0.0.36
-        version: 0.0.36(aws-cdk-lib@2.235.1(constructs@10.4.5))(constructs@10.4.5)
+        version: 0.0.36(aws-cdk-lib@2.236.0(constructs@10.4.5))(constructs@10.4.5)
       constructs:
         specifier: ^10.4.5
         version: 10.4.5
@@ -34,8 +34,8 @@ importers:
         specifier: ^1.6.6
         version: 1.6.6(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@25.0.10)(jiti@2.6.1)(tsx@4.21.0))
       aws-cdk:
-        specifier: ^2.1102.0
-        version: 2.1102.0
+        specifier: ^2.1103.0
+        version: 2.1103.0
       dotenv:
         specifier: ^17.2.3
         version: 17.2.3
@@ -73,16 +73,16 @@ importers:
         specifier: ^7.3.1
         version: 7.3.1(@types/node@25.0.10)(jiti@2.6.1)(tsx@4.21.0)
       vite-tsconfig-paths:
-        specifier: ^6.0.4
-        version: 6.0.4(typescript@5.9.3)(vite@7.3.1(@types/node@25.0.10)(jiti@2.6.1)(tsx@4.21.0))
+        specifier: ^6.0.5
+        version: 6.0.5(typescript@5.9.3)(vite@7.3.1(@types/node@25.0.10)(jiti@2.6.1)(tsx@4.21.0))
       vitest:
         specifier: ^4.0.18
         version: 4.0.18(@types/node@25.0.10)(jiti@2.6.1)(tsx@4.21.0)
 
 packages:
 
-  '@aws-cdk/asset-awscli-v1@2.2.261':
-    resolution: {integrity: sha512-XkKvgG/OxrEYtVTt2Q9gaD58Qn90fnX/dNczL4k6myeii7UgAGPmqh+I+1uKohCWGKIKd+4Gz2xWBL/tPi4YIA==}
+  '@aws-cdk/asset-awscli-v1@2.2.263':
+    resolution: {integrity: sha512-X9JvcJhYcb7PHs8R7m4zMablO5C9PGb/hYfLnxds9h/rKJu6l7MiXE/SabCibuehxPnuO/vk+sVVJiUWrccarQ==}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0':
     resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
@@ -742,8 +742,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.235.1:
-    resolution: {integrity: sha512-qKAsbunxtveIOIaeJSBgH2PZgdIiPkKtfsa+BxeNDOv2idw6Oa0dJW3Q0sdu8XBopY1KZI2Owrg8r56BOyyohA==}
+  aws-cdk-lib@2.236.0:
+    resolution: {integrity: sha512-LauY4BX8vdYL9DvVKCgtJ2gZBwLEgfszTlFe6R2p2NUfEJ+PPpeRGxUbTaOdwLqJGN6mDqmzdoF4or8l2v69PA==}
     engines: {node: '>= 18.0.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -760,8 +760,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1102.0:
-    resolution: {integrity: sha512-M/TeLiZERo88hB7FIbT+LyzKQBQuxiGW34oSSfy9+rYTuGwJrO9z6ZZrBNO8/jODT2iR7z0pa3CPsdUVC71oOw==}
+  aws-cdk@2.1103.0:
+    resolution: {integrity: sha512-bxEcqIeAT983x7525gf4Ya4zgpDt3Ou54El7j1ITCa/KqJ8ZaOP4F0ZHiiGuCbZduMcGJlszIXkaPJuvyNADgg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -1062,11 +1062,6 @@ packages:
   for-each@0.3.5:
     resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
     engines: {node: '>= 0.4'}
-
-  fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -1648,13 +1643,10 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vite-tsconfig-paths@6.0.4:
-    resolution: {integrity: sha512-iIsEJ+ek5KqRTK17pmxtgIxXtqr3qDdE6OxrP9mVeGhVDNXRJTKN/l9oMbujTQNzMLe6XZ8qmpztfbkPu2TiFQ==}
+  vite-tsconfig-paths@6.0.5:
+    resolution: {integrity: sha512-f/WvY6ekHykUF1rWJUAbCU7iS/5QYDIugwpqJA+ttwKbxSbzNlqlE8vZSrsnxNQciUW+z6lvhlXMaEyZn9MSig==}
     peerDependencies:
       vite: '*'
-    peerDependenciesMeta:
-      vite:
-        optional: true
 
   vite@7.3.1:
     resolution: {integrity: sha512-w+N7Hifpc3gRjZ63vYBXA56dvvRlNWRczTdmCBBa+CotUzAPf5b7YMdMR/8CQoeYE5LX3W4wj6RYTgonm1b9DA==}
@@ -1766,7 +1758,7 @@ packages:
 
 snapshots:
 
-  '@aws-cdk/asset-awscli-v1@2.2.261': {}
+  '@aws-cdk/asset-awscli-v1@2.2.263': {}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0': {}
 
@@ -2330,16 +2322,14 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  aws-cdk-lib@2.235.1(constructs@10.4.5):
+  aws-cdk-lib@2.236.0(constructs@10.4.5):
     dependencies:
-      '@aws-cdk/asset-awscli-v1': 2.2.261
+      '@aws-cdk/asset-awscli-v1': 2.2.263
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
       '@aws-cdk/cloud-assembly-schema': 48.20.0
       constructs: 10.4.5
 
-  aws-cdk@2.1102.0:
-    optionalDependencies:
-      fsevents: 2.3.2
+  aws-cdk@2.1103.0: {}
 
   balanced-match@1.0.2: {}
 
@@ -2371,9 +2361,9 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  cargo-lambda-cdk@0.0.36(aws-cdk-lib@2.235.1(constructs@10.4.5))(constructs@10.4.5):
+  cargo-lambda-cdk@0.0.36(aws-cdk-lib@2.236.0(constructs@10.4.5))(constructs@10.4.5):
     dependencies:
-      aws-cdk-lib: 2.235.1(constructs@10.4.5)
+      aws-cdk-lib: 2.236.0(constructs@10.4.5)
       constructs: 10.4.5
 
   chai@6.2.2: {}
@@ -2744,9 +2734,6 @@ snapshots:
   for-each@0.3.5:
     dependencies:
       is-callable: 1.2.7
-
-  fsevents@2.3.2:
-    optional: true
 
   fsevents@2.3.3:
     optional: true
@@ -3416,12 +3403,11 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-tsconfig-paths@6.0.4(typescript@5.9.3)(vite@7.3.1(@types/node@25.0.10)(jiti@2.6.1)(tsx@4.21.0)):
+  vite-tsconfig-paths@6.0.5(typescript@5.9.3)(vite@7.3.1(@types/node@25.0.10)(jiti@2.6.1)(tsx@4.21.0)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
-    optionalDependencies:
       vite: 7.3.1(@types/node@25.0.10)(jiti@2.6.1)(tsx@4.21.0)
     transitivePeerDependencies:
       - supports-color
