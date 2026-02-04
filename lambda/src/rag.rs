@@ -1,6 +1,6 @@
 use rig::client::{CompletionClient, ProviderClient};
 use rig::completion::Prompt;
-use rig_bedrock::{client::Client};
+use rig_bedrock::client::Client;
 
 pub(crate) async fn handle(message: &str) -> Result<String, crate::Error> {
     let agent = Client::from_env()
