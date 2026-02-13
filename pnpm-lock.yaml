@@ -28,13 +28,13 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2(eslint@9.39.2(jiti@2.6.1))
       '@eslint/js':
-        specifier: ^9.39.2
+        specifier: ^9
         version: 9.39.2
       '@stylistic/eslint-plugin':
-        specifier: ^5.8.0
+        specifier: '>=5.0.0'
         version: 5.8.0(eslint@9.39.2(jiti@2.6.1))
       '@types/node':
-        specifier: ^24.10.13
+        specifier: ^24
         version: 24.10.13
       '@vitest/eslint-plugin':
         specifier: ^1.6.7
@@ -43,13 +43,13 @@ importers:
         specifier: ^2.1106.0
         version: 2.1106.0
       dotenv:
-        specifier: ^17.2.4
-        version: 17.2.4
+        specifier: ^17.3.1
+        version: 17.3.1
       esbuild:
         specifier: ^0.27.3
         version: 0.27.3
       eslint:
-        specifier: ^9.39.2
+        specifier: ^9
         version: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-typescript:
         specifier: ^4.4.4
@@ -895,8 +895,8 @@ packages:
     resolution: {integrity: sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==}
     engines: {node: '>=0.10.0'}
 
-  dotenv@17.2.4:
-    resolution: {integrity: sha512-mudtfb4zRB4bVvdj0xRo+e6duH1csJRM8IukBqfTRvHotn9+LBXB8ynAidP9zHqoRC/fsllXgk4kCKlR21fIhw==}
+  dotenv@17.3.1:
+    resolution: {integrity: sha512-IO8C/dzEb6O3F9/twg6ZLXz164a2fhTnEWb95H23Dm4OuN+92NmEAlTrupP9VW6Jm3sO26tQlqyvyi4CsnY9GA==}
     engines: {node: '>=12'}
 
   dunder-proto@1.0.1:
@@ -2461,7 +2461,7 @@ snapshots:
     dependencies:
       esutils: 2.0.3
 
-  dotenv@17.2.4: {}
+  dotenv@17.3.1: {}
 
   dunder-proto@1.0.1:
     dependencies:
