@@ -7,6 +7,9 @@ settings:
 overrides:
   eslint: ^9
   '@eslint/js': ^9
+  '@eslint/eslintrc>ajv': ^6.12.4
+  ajv@<8.18.0: '>=8.18.0'
+  eslint>ajv: ^6.12.4
   '@stylistic/eslint-plugin': '>=5.0.0'
   '@types/node': ^24
 
@@ -28,13 +31,13 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2(eslint@9.39.2(jiti@2.6.1))
       '@eslint/js':
-        specifier: ^9
+        specifier: ^9.39.2
         version: 9.39.2
       '@stylistic/eslint-plugin':
-        specifier: '>=5.0.0'
+        specifier: ^5.8.0
         version: 5.8.0(eslint@9.39.2(jiti@2.6.1))
       '@types/node':
-        specifier: ^24
+        specifier: ^24.10.13
         version: 24.10.13
       '@vitest/eslint-plugin':
         specifier: ^1.6.9
@@ -49,7 +52,7 @@ importers:
         specifier: ^0.27.3
         version: 0.27.3
       eslint:
-        specifier: ^9
+        specifier: ^9.39.2
         version: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-typescript:
         specifier: ^4.4.4

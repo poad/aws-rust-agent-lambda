@@ -1,5 +1,8 @@
 overrides:
   eslint: '^9'
   '@eslint/js': '^9'
+  '@eslint/eslintrc>ajv': ^6.12.4
+  ajv@<8.18.0: '>=8.18.0'
+  'eslint>ajv': ^6.12.4
   '@stylistic/eslint-plugin': '>=5.0.0'
   '@types/node': '^24'
