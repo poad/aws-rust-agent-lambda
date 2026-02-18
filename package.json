@@ -29,7 +29,7 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-promise": "^7.2.1",
     "jiti": "^2.6.1",
-    "pnpm": "^10.29.3",
+    "pnpm": "^10.30.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.56.0",
