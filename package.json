@@ -21,7 +21,7 @@
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^25.4.0",
     "@vitest/eslint-plugin": "^1.6.10",
-    "aws-cdk": "^2.1110.0",
+    "aws-cdk": "^2.1111.0",
     "dotenv": "^17.3.1",
     "esbuild": "^0.27.3",
     "eslint": "^10.0.3",
@@ -38,7 +38,7 @@
     "vitest": "^4.0.18"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.242.0",
+    "aws-cdk-lib": "^2.243.0",
     "cargo-lambda-cdk": "^0.0.36",
     "constructs": "^10.5.1"
   },
