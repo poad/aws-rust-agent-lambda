@@ -38,7 +38,7 @@
     "vitest": "^4.1.0"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.243.0",
+    "aws-cdk-lib": "^2.244.0",
     "cargo-lambda-cdk": "^0.0.36",
     "constructs": "^10.5.1"
   },
