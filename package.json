@@ -20,11 +20,11 @@
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^25.5.0",
-    "@vitest/eslint-plugin": "^1.6.12",
+    "@vitest/eslint-plugin": "^1.6.13",
     "aws-cdk": "^2.1112.0",
     "dotenv": "^17.3.1",
     "esbuild": "^0.27.4",
-    "eslint": "^10.0.3",
+    "eslint": "^10.1.0",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-promise": "^7.2.1",
@@ -40,7 +40,7 @@
   "dependencies": {
     "aws-cdk-lib": "^2.244.0",
     "cargo-lambda-cdk": "^0.0.36",
-    "constructs": "^10.5.1"
+    "constructs": "^10.6.0"
   },
   "packageManager": "pnpm@10.32.1"
 }
