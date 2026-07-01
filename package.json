@@ -19,7 +19,7 @@
     "@eslint/compat": "^2.1.0",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
-    "@types/node": "^26.0.0",
+    "@types/node": "^26.0.1",
     "@vitest/eslint-plugin": "^1.6.20",
     "aws-cdk": "^2.1128.1",
     "dotenv": "^17.4.2",
