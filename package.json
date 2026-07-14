@@ -41,5 +41,16 @@
     "cargo-lambda-cdk": "^0.0.36",
     "constructs": "^10.6.0"
   },
-  "packageManager": "pnpm@11.10.0"
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "~11.10.0",
+      "onFail": "download"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^24.18.0",
+      "onFail": "download"
+    }
+  }
 }
