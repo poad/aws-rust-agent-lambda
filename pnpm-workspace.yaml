@@ -7,7 +7,7 @@ allowBuilds:
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-  - pnpm@11.10.0
+  - pnpm@11.15.1
 
 overrides:
   semver: '>=7'
