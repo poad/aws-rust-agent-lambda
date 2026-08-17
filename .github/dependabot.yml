@@ -16,8 +16,6 @@ updates:
   - package-ecosystem: npm
     directories:
       - '/'
-      - '/platform/'
-      - '/example/client/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
@@ -30,5 +28,23 @@ updates:
       - poad
     groups:
       npm:
+        patterns:
+          - '*'
+
+  - package-ecosystem: cargo
+    directories:
+      - '/lambda/'
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+    allow:
+      - dependency-type: all
+    cooldown:
+      default-days: 7
+    rebase-strategy: auto
+    assignees:
+      - poad
+    groups:
+      cargo:
         patterns:
           - '*'

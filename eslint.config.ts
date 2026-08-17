@@ -1,14 +1,12 @@
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { defineConfig } from 'eslint/config';
-import eslint from '@eslint/js';
+import { defineConfig, includeIgnoreFile } from 'eslint/config';
+import { configs as jsConfigs } from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import cdkPlugin from 'eslint-plugin-awscdk';
 import { configs, parser } from 'typescript-eslint';
 import { importX, createNodeResolver } from 'eslint-plugin-import-x';
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
-
-import { includeIgnoreFile } from '@eslint/compat';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -28,9 +26,6 @@ export default defineConfig(
       'lambda',
     ],
   },
-  eslint.configs.recommended,
-  ...configs.strict,
-  ...configs.stylistic,
   {
     files: ['**/*.{ts,tsx}', '*.js'],
     plugins: {
@@ -44,13 +39,16 @@ export default defineConfig(
       parserOptions: {
         tsconfigRootDir: __dirname,
         projectService: {
-          allowDefaultProject: ['./tsconfig-eslint.json'],
+          allowDefaultProject: ['eslint.config.ts'],
         },
       },
     },
     extends: [
       'import-x/flat/recommended',
       cdkPlugin.configs.recommended,
+      jsConfigs.recommended,
+      configs.strict,
+      configs.stylistic,
     ],
     settings: {
       'import-x/resolver-next': [
