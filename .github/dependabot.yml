@@ -1,54 +1,34 @@
 version: 2
-updates:
-  - package-ecosystem: github-actions
-    directory: /
+multi-ecosystem-groups:
+  all-dependencies:
     schedule:
       interval: daily
       timezone: Asia/Tokyo
+      interval: "weekly"
+    assignees:
+      - poad
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
     allow:
       - dependency-type: all
     cooldown:
-      default-days: 3
+      default-days: 7
     rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      actions:
-        patterns:
-          - '*'
+    multi-ecosystem-group: "all-dependencies"
+    patterns:
+      - '*'
 
   - package-ecosystem: npm
     directories:
       - '/'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
-    allow:
-      - dependency-type: all
-    cooldown:
-      default-days: 7
-    rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      npm:
-        patterns:
-          - '*'
-
-  - package-ecosystem: cargo
-    directories:
       - '/lambda/'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
+    multi-ecosystem-group: "all-dependencies"
+    patterns:
+      - '*'
     allow:
       - dependency-type: all
     cooldown:
       default-days: 7
     rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      cargo:
-        patterns:
-          - '*'

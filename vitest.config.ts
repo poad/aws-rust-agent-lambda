@@ -1,6 +1,6 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vitest/config';
-import * as dotenv from 'dotenv';
+import * as dotenvx from '@dotenvx/dotenvx';
 
 export default defineConfig({
   // モノレポ用の共通設定
@@ -31,7 +31,7 @@ export default defineConfig({
     environment: 'node',
     globals: true,
     isolate: true,
-    env: dotenv.config({ path: '.env.test' }).parsed,
+    env: dotenvx.config({ path: '.env.test' }).parsed,
     testTimeout: 30000,
   },
   // resolve: {

@@ -1,5 +1,5 @@
 {
-  "app": "pnx tsx bin/aws-rust-agent-lambda.ts",
+  "app": "pnpm exec tsx bin/aws-rust-agent-lambda.ts",
   "watch": {
     "include": [
       "**"
