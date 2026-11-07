@@ -23,6 +23,18 @@ updates:
   - package-ecosystem: npm
     directories:
       - '/'
+    multi-ecosystem-group: "all-dependencies"
+    patterns:
+      - '*'
+    allow:
+      - dependency-type: all
+    cooldown:
+      default-days: 7
+    rebase-strategy: auto
+
+
+  - package-ecosystem: cargo
+    directories:
       - '/lambda/'
     multi-ecosystem-group: "all-dependencies"
     patterns:

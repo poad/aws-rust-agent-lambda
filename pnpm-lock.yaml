@@ -186,7 +186,7 @@ importers:
         specifier: ^26.6.6
         version: 26.6.6
       aws-cdk:
-        specifier: ^2.1146.1
+        specifier: ^2.1147.0
         version: 2.1147.0
       esbuild:
         specifier: ^0.28.2
