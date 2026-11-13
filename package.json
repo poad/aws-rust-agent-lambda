@@ -20,15 +20,15 @@
   "devDependencies": {
     "@dotenvx/dotenvx": "^2.38.2",
     "@types/node": "^26.6.6",
-    "aws-cdk": "^2.1147.0",
+    "aws-cdk": "^2.1148.0",
     "esbuild": "^0.28.2",
-    "oxfmt": "^0.75.0",
-    "oxlint": "^1.90.0",
+    "oxfmt": "^0.77.0",
+    "oxlint": "^1.92.0",
     "oxlint-plugin-awscdk": "^1.0.4",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "vite": "^8.3.5",
-    "vitest": "^5.0.5"
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.275.0",
@@ -38,12 +38,12 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^12.18.0",
+      "version": "12.20.0",
       "onFail": "download"
     },
     "runtime": {
       "name": "node",
-      "version": "^26.13.0",
+      "version": "^26.13.1",
       "onFail": "download"
     }
   }
